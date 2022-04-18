@@ -1,0 +1,27 @@
+#email {
+  background: url(../img/svg/email.svg) 8px 50% no-repeat;
+}
+
+#phone {
+  background: url(../img/svg/phone.svg) 8px 50% no-repeat;
+}
+
+#name {
+  background: url(../img/svg/account_circle.svg) 8px 50% no-repeat;
+}
+
+#address {
+  background: url(../img/svg/home.svg) 8px 50% no-repeat;
+}
+
+#city {
+  background: url(../img/svg/location.svg) 8px 50% no-repeat;
+}
+
+#country {
+  background: url(../img/svg/country.svg) 8px 50% no-repeat;
+}
+
+#postal-code {
+  background: url(../img/svg/postal_code.svg) 8px 50% no-repeat;
+}
