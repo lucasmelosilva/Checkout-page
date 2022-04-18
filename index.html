@@ -9,37 +9,53 @@
   <link rel="icon" href="./assets/img/devchallenges.png" />
 
   <link rel="stylesheet" href="./assets/css/reset.css">
-
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <title>Devchallenges</title>
 </head>
 
 <body>
-  <h1 class="title">Checkout</h1>
 
-  <article class="selector">
-    <div class="selector__product">
-      <img class="selector__product--image" src="./assets/img/photo1.png" alt="product-1">
-      <div class="selector__product--info">
-        <h3 class="selector__product--name">Vintage Backbag</h3>
-        <p class="selector__product--price--discount">$54.99</p>
-        <p class="selector__product--price">$94.99</p>
+  <div class="container">
+    <h1 class="title">Checkout</h1>
+
+    <article class="selector">
+      <div class="selector__product">
+        <img class="selector__product--image" src="./assets/img/photo1.png" alt="product-1">
+        <div class="selector__product--info">
+          <h3 class="selector__product--name">Vintage Backbag</h3>
+          <p class="selector__product--price--discount">$54.99</p>
+          <p class="selector__product--price">$94.99</p>
+        </div>
+
+        <div class="selector__product--controller-quantily">
+          <button class="selector__product--controller-quantily-button">-</button>
+          <span>1</span>
+          <button class="selector__product--controller-quantily-button">+</button>
+        </div>
       </div>
-    </div>
 
-    <div class="selector__product">
-      <img class="selector__product--image" src="./assets/img/photo2.png" alt="product-1">
-      <div class="selector__product--info">
-        <h3 class="selector__product--name">Levi Shoes</h3>
-        <p class="selector__product--price--discount">$74.99</p>
-        <p class="selector__product--price">$124.99</p>
+      <div class="selector__product">
+        <img class="selector__product--image" src="./assets/img/photo2.png" alt="product-1">
+        <div class="selector__product--info">
+          <h3 class="selector__product--name">Levi Shoes</h3>
+          <p class="selector__product--price--discount">$74.99</p>
+          <p class="selector__product--price">$124.99</p>
+        </div>
+
+        <div class="selector__product--controller-quantily">
+          <button class="selector__product--controller-quantily-button">-</button>
+          <span>1</span>
+          <button class="selector__product--controller-quantily-button">+</button>
+        </div>
       </div>
-    </div>
 
-    <p class="selector__shipping">Shipping <span class="selector__shipping--value">$19</span></p>
-
-    <p>Total <span>$148.98</span></p>
-  </article>
+      <div class="selector__total">
+        <p class="selector__total--price">Shipping <span>$19</span></p>
+        <p class="selector__total--price">Total <span>$148.98</span></p>
+      </div>
+    </article>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 32px 12px;
+  width: 100vw;
+}
+
+.title {
+  color: #4e5150;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 6px;
+}
+
+.selector {
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 12px;
+  display: flex;
+  flex-flow: column;
+  height: 489px;
+  justify-content: space-between;
+  margin-top: 21px;
+  padding: 35px 25px 20px;
+  width: 350px;
+}
+
+.selector__product {
+  display: grid;
+  gap: 8px;
+  grid-template-areas:
+    "image preci"
+    "image controller";
+
+  width: 290px;
+}
+
+.selector__product > .selector__product--image {
+  border-radius: 12px;
+  grid-area: image;
+  height: 124px;
+  width: 122px;
+}
+
+.selector__product--info {
+  color: #4e5150;
+  display: grid;
+  grid-area: preci;
+  grid-gap: 5px;
+  grid-template-areas:
+    "name name"
+    "price-discount price";
+  width: 120px;
+}
+
+.selector__product--info > .selector__product--name {
+  font-size: 12px;
+  line-height: 15px;
+  grid-area: name;
+}
+
+.selector__product--info > .selector__product--price--discount {
+  color: #f2994a;
+  font-size: 14px;
+  line-height: 17px;
+  grid-area: price-discount;
+}
+
+.selector__product--info > .selector__product--price {
+  font-size: 10px;
+  line-height: 12px;
+  text-decoration: line-through;
+  grid-area: price;
+}
+
+.selector__product--controller-quantily {
+  align-items: center;
+  border: #828282 1px solid;
+  border-radius: 12px;
+  display: flex;
+  grid-area: controller;
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px;
+  width: 122px;
+}
+
+.selector__product--controller-quantily-button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  color: #828282;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+}
+
+.selector__total {
+  align-self: stretch;
+
+  font-size: 14px;
+
+  line-height: 17px;
+}
+
+.selector__total--price {
+  border-top: #bdbdbd 1px solid;
+  display: flex;
+  justify-content: space-between;
+  height: 47px;
+  align-items: center;
+}
