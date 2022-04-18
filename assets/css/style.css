@@ -166,6 +166,20 @@ fieldset:first-child {
   width: 100%;
 }
 
+.input--inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.input-box select {
+  background: none;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  padding: 15px;
+  width: 100%;
+}
+
 .input-checkout > input {
   width: fit-content;
 }
