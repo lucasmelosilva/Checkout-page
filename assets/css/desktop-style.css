@@ -1,0 +1,77 @@
+@media screen and (min-width: 1020px) {
+  .container {
+    margin: auto;
+    grid-template-areas:
+      "title title"
+      "form box";
+    width: 60vw;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 44px;
+    grid-area: title;
+  }
+
+  .selector {
+    width: 383px;
+    height: 535px;
+    grid-area: box;
+  }
+
+  .selector__product {
+    width: 310px;
+  }
+
+  .selector__product > .selector__product--image {
+    height: 134px;
+    width: 138px;
+  }
+
+  .selector__product--info > .selector__product--name,
+  .selector__product--info > .selector__product--price--discount {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .selector__product--info > .selector__product--price {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .selector__total--price {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .selector__total--price > span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  form {
+    grid-area: form;
+    width: 465px;
+  }
+
+  .form__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .input-box label {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .input-box input,
+  .input-box select {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .input-checkout p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

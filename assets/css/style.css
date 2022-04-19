@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   padding: 32px 12px;
   width: 100vw;
+  display: grid;
 }
 
 .title {
