@@ -4,7 +4,7 @@
     grid-template-areas:
       "title title"
       "form box";
-    width: 60vw;
+    width: 1020px;
   }
 
   .title {

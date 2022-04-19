@@ -207,3 +207,15 @@ form > button {
 form > button:hover {
   opacity: 0.9;
 }
+
+footer {
+  color: #b9bdcf;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer > strong {
+  font-weight: bold;
+}
